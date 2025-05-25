@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Pageicon-->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <!-- CSS -->
+     <link rel="stylesheet" href="css/styles.css">
+    <!--FonAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio - Witman Daniel Saldaña vargas</title>
+</head>
+<body>
+    <!--Navbar-->
+    <nav>
+        <div class="left">
+            <a href="/">Witman Saldaña</a>
+        </div>
+
+        <div class="right">
+            <a href="https://github.com/WitmanDaniel" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/witman-daniel-salda%C3%B1a-vargas-475b33367/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Linkedin</span>
+            </a>
+
+            <a href="#" id="downloadCV">
+                <i class="fa-solid fa-file"></i>
+                <span>CV</span>
+            </a>
+
+            <a href="#" id="navEmail">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </nav>
+    <main>
+        <!--Section 1: Hero-->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hi, I'm Witman 👋</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quisquam voluptates iste repellendus voluptatem recusandae officiis dolorum, maiores, quia, alias enim magnam sint possimus reprehenderit delectus eligendi. Veniam consectetur recusandae distinctio necessitatibus tenetur commodi deleniti at ipsam ad, ipsum iusto iure omnis quos, officiis laborum nemo nesciunt atque. Excepturi, odit. Natus voluptatum ullam, libero adipisci numquam, reiciendis excepturi a facilis quia quos minima nemo enim fugiat impedit possimus corrupti eveniet aliquid animi velit cupiditate quod!</p>
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i> 
+                        <span>Skills</span>
+                    </a>
+                    <a href="#projects">
+                        <i class="fa-solid fa-pen"></i> 
+                        <span>Projects</span>
+                    </a>
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i> 
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+            <div class="headshot">
+                <img src="/img/vaquita.jpeg" alt="me headshot">
+            </div>
+        </section>
+
+        <!--Section 2: Skills-->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus pariatur ipsa nostrum dolore cum, sapiente quasi recusandae ipsam hic, minus natus ab cupiditate, dolor blanditiis esse at atque explicabo sed.
+            </div>
+
+            <div class="cells">
+                <div class="cell" data-level="Avanzado">
+                    <img src="img/html-logo.webp" alt="html logo">
+                    <span>HTML</span>
+                </div>
+
+                <div class="cell" data-level="Avanzado">
+                    <img src="img/css-logo.webp" alt="css logo">
+                    <span>CSS</span>
+                </div>
+
+                <div class="cell" data-level="Básico">
+                    <img src="img/react-logo.webp" alt="react logo">
+                    <span>React.js</span>
+                </div>
+
+                <div class="cell" data-level="Básico">
+                    <img src="img/javascript-logo.webp" alt="javascript logo">
+                    <span>Javascript</span>
+                </div>
+            </div>
+        </section>
+
+        <!--Section 3: Projects-->
+        <section id="projects" class="projects-section">
+            <h2>Mis Proyectos</h2>
+            <div class="projects-overlay">
+                <div class="overlay-content">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>En Proceso</h3>
+                    <p>Estoy trabajando en nuevos proyectos. ¡Vuelve pronto!</p>
+                </div>
+            </div>
+            <div class="projects-grid">
+                <a href="/proyectos/proyecto1.html" class="project-card">
+                    <div class="project-image">
+                        <img src="img/proyecto1.jpg" alt="Proyecto 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Nombre del Proyecto 1</h3>
+                        <p>Descripción breve del proyecto. Tecnologías utilizadas y logros principales.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/proyectos/proyecto2.html" class="project-card">
+                    <div class="project-image">
+                        <img src="img/proyecto2.jpg" alt="Proyecto 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Nombre del Proyecto 2</h3>
+                        <p>Descripción breve del proyecto. Tecnologías utilizadas y logros principales.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/proyectos/proyecto3.html" class="project-card">
+                    <div class="project-image">
+                        <img src="img/proyecto3.jpg" alt="Proyecto 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Nombre del Proyecto 3</h3>
+                        <p>Descripción breve del proyecto. Tecnologías utilizadas y logros principales.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Firebase</span>
+                            <span>Tailwind</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!--Section 4: Contact-->
+        <section id="contact" class="contact-section">
+            <h2>Contacto</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>¡Hablemos!</h3>
+                    <p>¿Tienes un proyecto en mente? ¿Quieres colaborar? No dudes en contactarme.</p>
+                    <div class="contact-methods">
+                        <a href="mailto:saldanawitman7@gmail.com" class="contact-method">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>saldanawitman7@gmail.com</span>
+                        </a>
+                        <a href="https://github.com/WitmanDaniel" target="_blank" rel="noopener noreferrer" class="contact-method">
+                            <i class="fa-brands fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/witman-daniel-salda%C3%B1a-vargas-475b33367/" target="_blank" rel="noopener noreferrer" class="contact-method">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Asunto</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        Enviar Mensaje
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
